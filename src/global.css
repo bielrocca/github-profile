@@ -25,6 +25,12 @@
     border: 1px solid #000;
 }
 
+@media (max-width: 640px) {
+    .inputUser {
+        width: 50%;
+    }
+}
+
 .markdownInput {
     display: flex;
     justify-content: center;
