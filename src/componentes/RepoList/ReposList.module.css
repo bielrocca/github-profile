@@ -1,0 +1,58 @@
+.list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+@media (max-width: 780px){
+    .list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+@media (max-width: 380px){
+    .list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+}
+
+.listItem {
+    list-style: none;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.listItemName b, .listItemLanguage b {
+    margin-right: 8px;
+}
+
+.listItemLink {
+    display: block;
+    background-color: var(--corPrincipal);
+    color: var(--corSecundaria);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 8px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.listItemLink:hover {
+    background-color: rgb(167, 167, 167);
+    transition: .5s;
+}
+
+.loading {
+    max-width: 960px;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50%;
+}
