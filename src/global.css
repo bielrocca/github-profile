@@ -15,3 +15,11 @@
     --corPrincipal: #7e7e7e;
     --corSecundaria: #111;
 }
+
+.inputUser {
+    padding: 8px;
+    width: 20%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
