@@ -13,7 +13,9 @@ function App() {
 
   return (
     <>
+    <div className="markdownInput">
       <input className="inputUser" type="text" onBlur={(e) => setNomeUsuario(e.target.value)} placeholder='Digite seu Username do Github' />
+    </div>
       {nomeUsuario.length > 4 && (
         <>
         <Perfil nomeUsuario={nomeUsuario} />

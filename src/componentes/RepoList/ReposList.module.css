@@ -12,7 +12,7 @@
     }
 }
 
-@media (max-width: 380px){
+@media (max-width: 500px){
     .list {
         display: grid;
         grid-template-columns: repeat(1, 1fr);

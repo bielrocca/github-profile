@@ -18,8 +18,14 @@
 
 .inputUser {
     padding: 8px;
-    width: 18%;
-    position: absolute;
-    display: flex;
+    position: fixed;
     align-items: center;
+    width: 10%;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+.markdownInput {
+    display: flex;
+    justify-content: center;
 }
